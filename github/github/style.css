@@ -1,0 +1,266 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://github.githubassets.com/assets/hero-desktop-a38b0fd77b6c.webp');
+    background-size: 150%; /* Ensure the background image covers the entire page */
+    background-position: left center; /* Center the background image */
+    color: white; /* Set text color to white for better visibility on the background */
+  }
+  
+/* Style for the header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  /* Style for the logo */
+  #logo {
+    padding-left: 10px;
+    width: 50px;
+  }
+  nav {
+    display: flex;
+  }
+
+  /* Style for the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 400px;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    font-style: bold;
+    color: rgb(243, 241, 247);
+    position: relative;
+  }
+  
+  /* Style for the dropdown content (initially hidden) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f2f2;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Show the dropdown content when the parent li is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+    background-color: #0a0a0a;
+  }
+  
+  /* Style for nested dropdown lists */
+  .dropdown-content ul {
+    list-style-type: none;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dropdown-content li:last-child {
+    border-bottom: none;
+  }
+
+  #search-input {
+    width: 200px; /* Set the width of the search input */
+    padding: 5px; /* Add padding to the input */
+    background-color: black;
+    border-radius: 10px; /* Make the border circular */
+    border: 1px solid #0d0227; /* Add border with a light gray color */
+    margin-right: 10px; /* Add spacing between input and buttons */
+  }
+
+
+ 
+  #search-input,
+  #search-button,
+  #Sign-up-button,
+  #Login-button {
+    margin-right: 10px;
+  }
+  
+  #search-button,
+  #Sign-up-button,
+  #Login-button {
+    padding: 5px 10px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #search-button:hover,
+  #Sign-up-button:hover,
+  #Login-button:hover {
+    background-color: #0057a4;
+  }
+  
+
+ 
+  #main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  #main h1 {
+    font-size: 72px;
+    color: rgb(245, 240, 240);
+    font-style: bold;
+  }
+
+  #main h2 {
+    font-size: 24px;
+  }
+
+  #main p {
+    /* font-size: 16px; */
+  }
+  #inv{
+    font-size: 65px;
+    color: greenyellow;
+    font-style: bold;
+  }
+  #product{
+    font-size: 30px;
+    font-weight: 50;
+  }
+  
+  #ai{
+    font-size: 30px;
+    font-weight: 50;
+  }
+
+  #img a{
+    border: 4px solid black;
+    padding: 40px;
+  }
+
+#img b{
+  padding: 40px;
+}
+
+#Copilot{
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#increase{
+  font-size: 40px;
+  color: #3FB950;
+}
+#as{font-size: 28px;
+  margin: 0px 0px 24px;
+  color: #ffffff;
+  font-weight: 50;
+}
+
+#empo{
+  font-size: 48px;
+  color: #33b3ae;
+}
+
+#wi{
+  font-size: 40px;
+  color: #ffffff;
+}
+#in{
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#ap{
+  font-size: 40px;
+  font-weight: 50;
+}
+#em{
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#empower{
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#increase{
+  font-size: 30px;
+  font-weight: 50;}
+  #git{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  #enables{
+    font-size: 40px;
+    color: #848d97;
+  }
+#cool{
+  font-size: 35px;
+  margin: 0px 0px 24px;
+  color: #ffffff;
+}
+#sup{
+  font-size: 35px;
+  color: #f778ba;
+}
+#ft{
+  font-size: 20px;
+  font-weight: 20;
+}
+#an{
+  color: #ffffff;
+}
+
+
+  /* Style for the input container */
+.input-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Style for the email input */
+  #email-input {
+    width: 300px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  /* Style for the email button */
+  #email-button {
+    width: 200px;
+    height: 50px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #0366d6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  /* Style for the email button on hover */
+  #email-button:hover {
+    background-color: #0057a4;
+  }
+  
+  
